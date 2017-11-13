@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="pc-ticketmaster-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="pc-ticketmaster-common.jar" deploy-path="/lib" handle="module:/classpath/lib/pc-ticketmaster-common/archives/pc-ticketmaster-common.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pc-ticketmaster-messaging.jar" deploy-path="/" handle="module:/resource/pc-ticketmaster-messaging/pc-ticketmaster-messaging">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pc-ticketmaster-jobs.jar" deploy-path="/" handle="module:/resource/pc-ticketmaster-jobs/pc-ticketmaster-jobs">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pc-ticketmaster-jpa.jar" deploy-path="/lib" handle="module:/classpath/lib/pc-ticketmaster-jpa/archives/pc-ticketmaster-jpa.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pc-ticketmaster-ejb-soap.jar" deploy-path="/" handle="module:/resource/pc-ticketmaster-ejb-soap/pc-ticketmaster-ejb-soap">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
